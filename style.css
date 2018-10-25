@@ -7,7 +7,13 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-input type {
-  color: red
+h1 {
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+}
+.listelements {
+  color: red;
+  margin: 20px;
+  padding: 20px;
+  font-family:'Cabin Sketch', cursive;
 }
 </style>

@@ -7,11 +7,11 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-body {
+h1 {
   color: red;
   margin: 20px;
   padding: 20px;
-  font-family:'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-size: 40px;
 }
 </style>

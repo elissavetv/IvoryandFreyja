@@ -2,21 +2,43 @@ h1 {
 font-family: 'Tangerine', cursive;
 }
 
+#intro {
+  margin-top: 40px;
+  padding: 70px;
+  border: 1px solid;
+  line-height: center;
+}
+.navbar-brand {
+font-family: 'Tangerine', cursive;
+font-size: 70px;
+padding-top: 40px;
+}
+#bar {
+  background-color: purple;
+}
+#bs-example-navbar-collapse-9 {
+font-family: 'Tangerine', cursive;
+font-size: 50px;
+padding-right: 10px;
+  }
+.img-responsive {
+  padding-top: 20px;
+}
 ul {
-  padding: 20px 20px 20px 20px;
+  padding: 10px 20px 20px 10px;
   background: purple;
 }
 li {
   display: inline;
     padding: 20px 10px 20px 10px;
-      text-align: center;
     }
  ul.nav li {
    display: inline-block;
  }
+
 body {
+  padding-top: 70px;
   color: teal;
-  padding: 20px;
   font-family: 'EB Garamond', serif;
   font-size: 30px;
 }

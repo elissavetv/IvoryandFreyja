@@ -3,17 +3,21 @@ font-family: 'Tangerine', cursive;
 }
 
 ul {
-  padding: 10px;
+  padding: 20px 20px 20px 20px;
   background: purple;
 }
 li {
   display: inline;
-  padding: 20px 10px 20px 10px;
-}
+    padding: 20px 10px 20px 10px;
+      text-align: center;
+    }
+ ul.nav li {
+   display: inline-block;
+ }
 body {
   color: teal;
   padding: 20px;
-  font-family: 'Alegreya', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 30px;
 }
 h1 {

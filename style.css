@@ -50,6 +50,11 @@ img {
   float:right;
   margin-right:40px
 }
+#contact {
+  margin-top: 40px;
+  padding-right: 10px;
+  line-height: center;
+}
 .class {
   float: left;
 }

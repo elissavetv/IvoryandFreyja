@@ -15,7 +15,6 @@ font-size: 70px;
 padding-top: 40px;
 }
 
-
 #bar {
   background-color: purple;
 }
@@ -46,6 +45,7 @@ body {
   color: teal;
   font-family: 'EB Garamond', serif;
   font-size: 30px;
+  caret-color: black solid;
 }
 h1 {
   font-size: 20px;
@@ -67,6 +67,17 @@ img {
   background-color: purple;
 }
 
+#insta {
+  color: teal;
+}
+
+blockquote  {
+  border-top:solid teal 4px;
+}
+
+.main-border{
+  border-top: solid teal 4px;
+}
 
 /* Extra Small */
 @media(max-width:475px){

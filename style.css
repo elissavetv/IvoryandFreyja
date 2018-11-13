@@ -2,25 +2,31 @@ h1 {
 font-family: 'Tangerine', cursive;
 }
 
-#intro {
+/*#intro {
   margin-top: 40px;
   padding: 70px;
   border: 1px solid;
   line-height: center;
 }
+*/
+
 .navbar-brand {
 font-family: 'Tangerine', cursive;
 font-size: 70px;
 padding-top: 40px;
 }
+
+
 #bar {
   background-color: purple;
 }
+
 #bs-example-navbar-collapse-9 {
 font-family: 'Tangerine', cursive;
 font-size: 50px;
 padding-right: 10px;
   }
+
 .img-responsive {
   padding-top: 20px;
 }
@@ -61,24 +67,48 @@ img {
 .container{
   background-color: purple;
 }
+
+
 /* Extra Small */
-@media(max-width:767px){
+@media(max-width:475px){
   body {
     color: teal;
     padding: 5px;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
   }
+
+  .navbar-brand {
+ font-family: 'Tangerine', cursive;
+ font-size: 40px;
+ padding-top: 18px;
+ }
+
+ .img-responsive {
+   margin: auto;
+
+ }
 }
 
 /* Small */
-@media(min-width:768px) and (max-width:991px){
+@media(min-width:476px) and (max-width:791px){
   body {
     color: teal;
     padding: 5px;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
   }
+
+  .navbar-brand {
+  font-family: 'Tangerine', cursive;
+  font-size: 45px;
+  padding-top: 18px;
+  }
+
+  .img-responsive {
+    position: relative;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
 }
 
 /* Medium */
